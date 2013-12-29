@@ -207,13 +207,13 @@
       margin: $base-line-height / 4 0
       font-size: 90%
       line-height: normal
-      background: lighten($blue, 50%)
-      color: $blue
-      border-top: solid 3px lighten($blue, 20%)
+      background: lighten($orange, 40%)
+      color: $orange
+      border-top: solid 3px lighten($orange, 20%)
       padding: $base-line-height / 4
       position: relative
       &:before
-        color: lighten($blue, 20%)
+        color: lighten($orange, 20%)
       .headerlink
         color: $text-color
         font-size: 100% !important
@@ -253,6 +253,13 @@
     .property
       display: inline-block
       padding-right: 8px
+
+.codeblock, div[class^='highlight']
+  background-color: #002b36
+  pre
+    color: inherit
+  div[class^='highlight']
+    background-color: #002b36
 
 // Mobile specific
 +media($mobile)
